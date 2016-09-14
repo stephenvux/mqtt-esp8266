@@ -1,13 +1,10 @@
 # Sử dụng giao thức MQTT PROTOCOL qua NODE.JS 
 
-[![Swift 2.2](https://img.shields.io/badge/swift-2.2-green.svg)](https://swift.org)
-[![Swift 3.0](https://img.shields.io/badge/swift-3.0-orange.svg)](https://swift.org)
 ![License](https://img.shields.io/github/license/openkitten/mongokitten.svg)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+![License]()
 
 
-Native MongoDB driver for Swift, written in Swift. This library does not wrap around the mongoc driver. It uses:
-
+Đây là một ví dụ đơn giản việc sử dụng giao thức MQTT
 - [Strand](https://github.com/qutheory/Strand) for fetching server responses without blocking the thread
 - Our own [BSON](https://github.com/OpenKitten/BSON) library, which is also 100% native Swift
 - Our own [MD5](https://github.com/CryptoKitten/MD5), [SHA1](https://github.com/CryptoKitten/SHA1) and [SCRAM](https://github.com/CryptoKitten/SCRAM) libraries in 100% Swift
