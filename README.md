@@ -6,25 +6,22 @@
 - Our own [BSON](https://github.com/OpenKitten/BSON) library, which is also 100% native Swift
 - Our own [MD5](https://github.com/CryptoKitten/MD5), [SHA1](https://github.com/CryptoKitten/SHA1) and [SCRAM](https://github.com/CryptoKitten/SCRAM) libraries in 100% Swift
 
-## Documentation
+## Tài liệu hướng dẫn
 
 This can be found [here](http://openkitten.github.io/MongoKitten/docs/).
 
 We have our own Dash documentation for MongoKitten which can be found in the top-right corner of the Documentation.
 
-## Requirements
+## Yêu cầu
 
-- A MongoDB server
-- Some basic knowledge of MongoDB or time to research about MongoDB
-- The swift version described in `.swift-version`, see [swiftenv](http://swiftenv.fuller.li/en/latest/).
+- Cần có một MQTT broker ( có thể test free server test.mosquitto.org )  
+- Có kiến thức căn bản về lập trình nhúng , cũng như ngôn ngữ javascript .
 
-We don't support any other version of swift with the constantly changing syntax. This required swift version changes constantly with newer versions of `MongoKitten` and it's recommended to pin down the version in SPM.
 
-Note: other versions of `swift` and `MongoDB` may or may not work. We do not support them.
+Chú ý : Không hỗ trợ tất cả các version , đề nghị update phiên bản mới nhất
 
-#### Running Unit Tests
-The unit tests expect a test database. Run the Tools/testprep.sh script to import it.
-
+#### Chạy ứng dụng
+``` node mqtt.js ```
 # Tutorial
 
 ## Setup
