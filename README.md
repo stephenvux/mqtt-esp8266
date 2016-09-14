@@ -1,9 +1,6 @@
 # Sử dụng giao thức MQTT PROTOCOL qua NODE.JS 
 
 ![License](https://img.shields.io/github/license/openkitten/mongokitten.svg)
-![License]()
-
-
 Đây là một ví dụ đơn giản việc sử dụng giao thức MQTT
 - [Strand](https://github.com/qutheory/Strand) for fetching server responses without blocking the thread
 - Our own [BSON](https://github.com/OpenKitten/BSON) library, which is also 100% native Swift
