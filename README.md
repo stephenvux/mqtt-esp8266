@@ -1,11 +1,10 @@
 # Sử dụng giao thức MQTT PROTOCOL và Config wifi qua Webserver
 
-![License](https://img.shields.io/github/license/openkitten/mongokitten.svg)
+![License](http://datthanhvu.com)
 
 Đây là một ví dụ đơn giản việc sử dụng giao thức MQTT
-- [Strand](https://github.com/qutheory/Strand) for fetching server responses without blocking the thread
-- Our own [BSON](https://github.com/OpenKitten/BSON) library, which is also 100% native Swift
-- Our own [MD5](https://github.com/CryptoKitten/MD5), [SHA1](https://github.com/CryptoKitten/SHA1) and [SCRAM](https://github.com/CryptoKitten/SCRAM) libraries in 100% Swift
+- [Tác giả](http://datthanhvu.com) 
+- [Facebook](https://www.facebook.com/datthanhvu98) 
 
 ## Tài liệu hướng dẫn
 
@@ -39,8 +38,9 @@ const char* mqtt_server = "iot.eclipse.org"; // Có thể sử dụng localhost
 ```
 
 Sau đó Run dự án lên , hãy connect thiết bị của bạn với wifi trên eps8266 .  Sau đó thực hiện xong , gõ địa chỉ sau vào máy tính
-```C++
-http://192.168.4.1/configwifi?ssid=1334e23&pass=1545678 //ssid : tên wifi bạn muốn connect cho eps8266 , pass : mật khẩu của wifi bạn muốn connect cho eps8266
+```URL GET METHOD
+192.168.4.1/configwifi?ssid=1334e23&pass=1545678 //ssid : tên wifi bạn muốn connect cho eps8266 
+                                                 //pass : mật khẩu của wifi bạn muốn connect cho eps8266
 ```
 
 ## License
