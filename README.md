@@ -39,7 +39,7 @@ const char* mqtt_server = "iot.eclipse.org"; // Có thể sử dụng localhost
 
 Sau đó Run dự án lên , hãy connect thiết bị của bạn với wifi trên eps8266 .  Sau đó thực hiện xong , gõ địa chỉ sau vào máy tính
 ```URL GET METHOD
-192.168.4.1/configwifi?ssid=1334e23&pass=1545678 //ssid : tên wifi bạn muốn connect cho eps8266 , pass : mật khẩu của wifi bạn muốn connect cho eps8266
+http://192.168.4.1/configwifi?ssid=1334e23&pass=1545678 //ssid : tên wifi bạn muốn connect cho eps8266 , pass : mật khẩu của wifi bạn muốn connect cho eps8266
 ```
 
 ## License
