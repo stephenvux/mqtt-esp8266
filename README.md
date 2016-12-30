@@ -9,27 +9,25 @@
 
 ## Tài liệu hướng dẫn
 
-This can be found [here](http://openkitten.github.io/MongoKitten/docs/).
+Tài liệu có thể đọc ở đây [here](http://datthanhvu.com).
 
-We have our own Dash documentation for MongoKitten which can be found in the top-right corner of the Documentation.
 
 ## Yêu cầu
 
 - Cần có một MQTT broker ( có thể test free server test.mosquitto.org )  
 - Có kiến thức căn bản về lập trình nhúng , cũng như ngôn ngữ javascript .
 
-
 Chú ý : Không hỗ trợ tất cả các version , đề nghị update phiên bản mới nhất
 
 #### Chạy ứng dụng
-``` node mqtt.js ```
+``` ESP8266 ```
 # Tutorial
 
-## Setup
+## Setup Arduino ide / PlatformIO
 
-### Swift 3.0 (SPM)
+### Install esp8266 on arduino ide
 
-Add `MongoKitten` to your Package.swift:
+#### Unzip folder and run it.
 
 ```swift
 import PackageDescription
