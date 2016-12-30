@@ -36,11 +36,11 @@ Cài đặt môi trường cho MQTT và đặt mặt khẩu cho esp8266
 const char WiFiAPPSK[] = "datthanhvu"; //Đổi mật khẩu hoặc để trống " "
 const char* mqtt_server = "iot.eclipse.org"; // Có thể sử dụng localhost
 ```
-
 Sau đó Run dự án lên , hãy connect thiết bị của bạn với wifi trên eps8266 .  Sau đó thực hiện xong , gõ địa chỉ sau vào máy tính
 ```URL
 http://192.168.4.1/configwifi?ssid=1334e23&pass=1545678
 ```
+## Việc làm này nhằm kết nối wifi cho ESP8266 , sau khi connect được với eps8266 bằng địa chỉ trên với  SSID : là tên wifi cần connect cho esp8266 , PASS : là mật khẩu wifi cần connect . Nếu địa chỉ báo OK có nghĩa connect thành công , còn FALSE tức là không thành công . Sau khi connect thành công , hệ thống kết nối với MQTT BROKER . và sẽ thực hiện bắn bản tin và nhận về bản tin trên thiết bị
 
 ## License
 
