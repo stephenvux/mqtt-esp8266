@@ -200,7 +200,7 @@ void init_wifi_ap_mode()
     // Do a little work to get a unique-ish name. Append the
     // last two bytes of the MAC (HEX'd) to "Hachi ":
     uint8_t mac[WL_MAC_ADDR_LENGTH];
-    WiFi.softAPmacAddress(mac);
+    WiFi.softAPmacAddress(mac); 
     String macID = String(mac[WL_MAC_ADDR_LENGTH - 2], HEX) +
                    String(mac[WL_MAC_ADDR_LENGTH - 1], HEX);
     macID.toUpperCase();
